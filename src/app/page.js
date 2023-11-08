@@ -4,7 +4,7 @@ import Latest from "@/components/Home/Latest";
 import PlainLayout from "@/components/Master/Plain-Layout";
 
 // Prisma Direct Database Data Pull
-// Hero // Latest/Populer/ Trending
+// Hero // Latest // Populer // Trending
 
 const Page = () => {
     return (

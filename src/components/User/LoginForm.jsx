@@ -6,16 +6,16 @@ import SubmitButton from "@/components/SubmitButton/SubmitButton";
 
 
 const LoginForm = () => {
-
-
-    let [data, setData] = useState({email:"",password:""});
+    let [data, setData] = useState({ email:"", password:"" });
     const [submit, setSubmit] = useState(false);
+
     const inputOnChange = (name,value) => {
         setData((data)=>({
             ...data,
             [name]:value
         }))
     }
+
     const formSubmit =async (e) => {
       e.preventDefault();
       if(IsEmail(data.email)){
@@ -33,7 +33,7 @@ const LoginForm = () => {
               body: JSON.stringify(data)
           }
 
-          let res=await fetch("/api/user/login",options);
+          let res=await fetch("/api/user/login", options);
           let ResJson=await res.json();
 
           setSubmit(false);

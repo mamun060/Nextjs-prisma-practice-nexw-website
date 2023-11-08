@@ -7,6 +7,7 @@ import {ErrorToast, SuccessToast} from "@/utility/FormHelper";
 
 const UserDropDown = () => {
     const [submit, setSubmit] = useState(false);
+    
     const onLogout = async () => {
         setSubmit(true)
         let res = await fetch("/api/user/login");

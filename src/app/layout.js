@@ -5,6 +5,7 @@ import '@/assets/css/sidebar.css'
 import '@/assets/css/animate.min.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
