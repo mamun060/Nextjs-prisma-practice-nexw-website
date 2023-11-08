@@ -3,8 +3,9 @@ import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Fade } from "react-awesome-reveal";
 import Link from 'next/link';
-const Hero = () => {
 
+
+const Hero = () => {
 
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex) => {

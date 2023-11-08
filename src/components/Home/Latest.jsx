@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
+
+
 const Latest = () => {
     return (
         <div className="container mt-5">

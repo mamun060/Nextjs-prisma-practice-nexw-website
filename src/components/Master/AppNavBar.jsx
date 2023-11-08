@@ -50,7 +50,7 @@ function AppNavBar(props) {
                         </div>
 
 
-                        {props.firstName==="0"?( <Link href="/User/Login" className="btn ms-3 btn-outline-danger">Login</Link>) :(<UserDropDown/>)}
+                        {props.firstName==="0"? ( <Link href="/User/Login" className="btn ms-3 btn-outline-danger">Login</Link>) :(<UserDropDown/>)}
 
                     </Navbar.Collapse>
                 </div>

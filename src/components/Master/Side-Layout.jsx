@@ -17,7 +17,6 @@ const SideLayout = (props) => {
         title="HOME";
     }
 
-
     const MenuBarClickHandler = () => {
         let sideNav = sideNavRef;
         let content = contentRef;
